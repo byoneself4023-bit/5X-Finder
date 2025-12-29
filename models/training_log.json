@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-12-30T01:43:01.353859",
+  "dataset": {
+    "total_samples": 4652,
+    "train_samples": 3681,
+    "test_samples": 971,
+    "train_years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017
+    ],
+    "test_years": [
+      2018,
+      2019
+    ],
+    "features": 26
+  },
+  "smote": {
+    "before_ratio": "1:19.2",
+    "after_ratio": "1:1.0"
+  },
+  "best_model": {
+    "name": "Logistic Regression",
+    "params": {
+      "C": 1,
+      "penalty": "l2",
+      "solver": "lbfgs"
+    },
+    "cv_score": 0.8822147008846457
+  },
+  "test_performance": {
+    "roc_auc": 0.8715682910089224,
+    "recall": 0.8064516129032258,
+    "precision": 0.11061946902654868,
+    "f1": 0.19455252918287938
+  }
+}
